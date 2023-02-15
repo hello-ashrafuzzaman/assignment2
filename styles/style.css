@@ -1,0 +1,93 @@
+/* Font Family Import */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@400;500;600;700&display=swap");
+
+/* Default CSS */
+* {
+  margin: 0;
+  font-family: "Work Sans";
+}
+
+/* Max-Width Mention */
+main {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+/* Primary CSS */
+.primary_color {
+  color: #ff900e;
+}
+
+.primary_bg_color {
+  background-color: #ff900e;
+}
+
+.secondary_bg_color {
+  background-color: #fff4e7;
+}
+
+/* Navbar Section CSS Design */
+.nav_container {
+  margin: 0 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_logo {
+  margin-top: 50px;
+  font-size: 45px;
+  font-weight: 700;
+}
+.nav_container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 50px;
+}
+.nav_container ul li {
+  list-style: none;
+  color: #424242;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Banner Section CSS Design */
+.banner_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin: 50px 240px;
+}
+.banner_details {
+  width: 868px;
+  margin: 70px auto;
+  text-align: center;
+}
+.banner_details h1 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.banner_details p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.banner_details button {
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 15px 25px;
+}
+.banner_img {
+/* text-align: center; */
+  width: 80%;
+}
+.banner_img img {
+    width: 100%;
+  margin-bottom: 70px;
+}
