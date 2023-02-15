@@ -27,6 +27,12 @@ main {
 }
 
 /* Navbar Section CSS Design */
+.header_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .nav_container {
   margin: 0 240px;
   display: flex;
@@ -54,10 +60,10 @@ main {
 
 /* Banner Section CSS Design */
 .banner_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 50px 240px;
 }
 .banner_details {
@@ -75,7 +81,7 @@ main {
   font-weight: 400;
   margin-bottom: 30px;
 }
-.banner_details button {
+button {
   border: none;
   color: white;
   font-weight: 600;
@@ -84,13 +90,60 @@ main {
   padding: 15px 25px;
 }
 
-.banner_img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
+.banner_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
 }
 .banner_img img {
-    width: 100%;
+  width: 100%;
   margin-bottom: 70px;
+}
+
+/* Our Features Section CSS Design */
+.features_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 92px;
+  margin: 85px 0;
+}
+.features_images_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.feature_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.feature_img img {
+  width: 100%;
+}
+
+.feature_h1 {
+  font-size: 45px;
+  font-weight: 500;
+  color: #727272;
+}
+.feature_h2 {
+  font-size: 45px;
+  font-weight: 500;
+  color: #131313;
+}
+.feature_h3 {
+  font-size: 45px;
+  font-weight: 500;
+  color: #ff900e;
+}
+.features_content p {
+  margin: 24px 0;
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
