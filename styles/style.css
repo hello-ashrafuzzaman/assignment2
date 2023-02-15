@@ -84,6 +84,13 @@ main {
   padding: 15px 25px;
 }
 
+.banner_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
 .banner_img img {
+    width: 100%;
   margin-bottom: 70px;
 }
