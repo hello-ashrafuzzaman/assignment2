@@ -14,11 +14,11 @@
 }
 /* Default CSS */
 * {
-    margin: 0 auto;
+  margin: 0 auto;
   font-family: "Work Sans";
 }
-main{
-    margin: 0 200px;
+main {
+  margin: 0 200px;
 }
 
 /* Primary CSS */
@@ -366,374 +366,354 @@ footer {
 
 /* Small Device Responsive CSS Design */
 @media screen and (max-width: 576px) {
-/* Navbar Section CSS Design */
-main{
+  /* Navbar Section CSS Design */
+  main {
     margin: 0 0;
-}
+  }
 
-.nav_container {
-  gap: 0px;
-}
-.nav_logo {
-  font-size: 20px;
-}
-.nav_container ul {
-  gap: 10px;
-}
-.nav_container ul li {
-  font-size: 16px;
-}
+  .nav_container {
+    gap: 0px;
+  }
+  .nav_logo {
+    font-size: 20px;
+  }
+  .nav_container ul {
+    gap: 10px;
+  }
+  .nav_container ul li {
+    font-size: 16px;
+  }
 
-/* Banner Section CSS Design */
+  /* Banner Section CSS Design */
 
-.banner_container {
-  padding: 20px;
-}
-.banner_details {
-  width: 100%;
-  margin: 70px 0;
-}
-.banner_details h1 {
-  font-size: 30px;
-  margin-bottom: 30px;
-}
-
-.banner_img img {
-  border-radius: 10px;
-}
-
-/* Our Features Section CSS Design */
-.features_container {
-  flex-direction: column-reverse;
-  padding: 20px;
-}
-.features_images_container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 24px;
-}
-.feature_img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-.feature_img img {
-  width: 100%;
-}
-
-.feature_h1 {
-  font-size: 30px;
-}
-.feature_h2 {
-  font-size: 30px;
-}
-
-/* Features You Section CSS Design */
-.feature_you_container {
-  flex-direction: column;
-  padding: 20px;
-}
-
-.you_header h2 {
-  font-size: 30px;
-}
-
-
-/* 10+Year Section Start */
-.year_content {
-  margin-top: -300px;
-  margin-left: 50px;
-}
-
-/* Some Facts Section CSS Design */
-.some_facts_container h2 {
-  font-size: 30px;
-  padding: 20px;
-  margin-bottom: 0px;
-}
-.some_facts_container p {
+  .banner_container {
     padding: 20px;
-}
-.facts_items_Container {
-  flex-direction: column;
-gap: 30px;
-  margin-top: 50px;
-}
+  }
+  .banner_details {
+    width: 100%;
+    margin: 70px 0;
+  }
+  .banner_details h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
 
-.fact_item img {
-  width: 70px;
-  margin-top: 35px;
-}
+  .banner_img img {
+    border-radius: 10px;
+  }
 
-.fact_item h2 {
-    padding: 0;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.fact_item p {
-    padding: 0;
-}
-
-/* Extra Work CSS Design */
-.extra_work_container{
+  /* Our Features Section CSS Design */
+  .features_container {
+    flex-direction: column-reverse;
     padding: 20px;
-}
-.extra_work {
-  flex-direction: column;
-  gap: 20px;
-  padding: 30px;
-  margin-top: 50px;
-  text-align: center;
+  }
+  .features_images_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  .feature_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .feature_img img {
+    width: 100%;
+  }
 
-}
-.Extra_work_head {
-  font-size: 25px;
-}
-.get_quote {
-  font-size: 16px;
-}
+  .feature_h1 {
+    font-size: 30px;
+  }
+  .feature_h2 {
+    font-size: 30px;
+  }
 
-/* Our Sponspor Section CSS Design  */
-.sponsors_container {
-  margin-top: 50px;
-  padding: 20px;
-}
-.sponsors_container h2 {
-  font-size: 30px;
-}
-.sponsers_logo {
-flex-direction: column;
-gap: 30px;
-}
+  /* Features You Section CSS Design */
+  .feature_you_container {
+    flex-direction: column;
+    padding: 20px;
+  }
 
-}
+  .you_header h2 {
+    font-size: 30px;
+  }
 
+  /* 10+Year Section Start */
+  .year_content {
+    margin-top: -300px;
+    margin-left: 50px;
+  }
+
+  /* Some Facts Section CSS Design */
+  .some_facts_container h2 {
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+  .some_facts_container p {
+    padding: 20px;
+  }
+  .facts_items_Container {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .fact_item img {
+    width: 70px;
+    margin-top: 35px;
+  }
+
+  .fact_item h2 {
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .fact_item p {
+    padding: 0;
+  }
+
+  /* Extra Work CSS Design */
+  .extra_work_container {
+    padding: 20px;
+  }
+  .extra_work {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .Extra_work_head {
+    font-size: 25px;
+  }
+  .get_quote {
+    font-size: 16px;
+  }
+
+  /* Our Sponspor Section CSS Design  */
+  .sponsors_container {
+    margin-top: 50px;
+    padding: 20px;
+  }
+  .sponsors_container h2 {
+    font-size: 30px;
+  }
+  .sponsers_logo {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
 
 /* Medium Device Responsive CSS Design */
 
-@media screen and (min-width: 577px) and (max-width:992px) {
-/* Navbar Section CSS Design */
-main{
+@media screen and (min-width: 577px) and (max-width: 1219px) {
+  /* Navbar Section CSS Design */
+  main {
     margin: 0 0;
-}
+  }
 
-.nav_container {
-  gap: 150px;
-  padding: 20px;
-}
-.nav_logo {
-  font-size: 30px;
-}
-.nav_container ul {
-  gap: 20px;
-}
-.nav_container ul li {
-  font-size: 20px;
-}
-
-/* Banner Section CSS Design */
-
-.banner_container {
-  padding: 20px;
-}
-.banner_details {
-  width: 100%;
-  margin: 70px 0;
-}
-.banner_details h1 {
-  font-size: 45px;
-  margin-bottom: 30px;
-}
-
-.banner_img img {
-  border-radius: 10px;
-}
-
-/* Our Features Section CSS Design */
-.features_container {
-  flex-direction: column-reverse;
-  padding: 20px;
-}
-.features_images_container {
-  width: 100%;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-}
-
-.feature_h1 {
-  font-size: 45px;
-}
-.feature_h2 {
-  font-size: 45px;
-}
-
-/* Features You Section CSS Design */
-.feature_you_container {
-  flex-direction: column;
-  padding: 20px;
-}
-
-.you_header h2 {
-  font-size: 45px;
-}
-
-
-/* 10+Year Section Start */
-.year_content {
-  margin-top: -300px;
-  margin-left: 350px;
-}
-
-/* Some Facts Section CSS Design */
-.some_facts_container h2 {
-  font-size: 45px;
-  padding: 20px;
-  margin-bottom: 0px;
-}
-.some_facts_container p {
+  .nav_container {
+    gap: 150px;
     padding: 20px;
-}
-.facts_items_Container {
-display: grid;
-justify-content: space-evenly;
-grid-template-columns: repeat(2, 1fr);
-row-gap:60px;
-column-gap: 20px;
-  margin-top: 50px;
-}
+  }
+  .nav_logo {
+    font-size: 30px;
+  }
+  .nav_container ul {
+    gap: 20px;
+  }
+  .nav_container ul li {
+    font-size: 20px;
+  }
 
-.fact_item img {
-  width: 70px;
-  margin-top: 35px;
-}
+  /* Banner Section CSS Design */
 
-.fact_item h2 {
-    padding: 0;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.fact_item p {
-    padding: 0;
-}
-
-/* Extra Work CSS Design */
-.extra_work_container{
+  .banner_container {
     padding: 20px;
-}
-.extra_work {
-  flex-direction: column;
-  gap: 20px;
-  padding: 30px;
-  margin-top: 50px;
-  text-align: center;
+  }
+  .banner_details {
+    width: 100%;
+    margin: 70px 0;
+  }
+  .banner_details h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
 
-}
-.Extra_work_head {
-  font-size: 35px;
-}
-.get_quote {
-  font-size: 16px;
-}
+  .banner_img img {
+    border-radius: 10px;
+  }
 
-/* Our Sponspor Section CSS Design  */
-.sponsors_container {
-  margin-top: 50px;
-  padding: 20px;
-}
-.sponsors_container h2 {
-  font-size: 45px;
-}
-.sponsers_logo {
-flex-wrap: wrap;
-gap: 30px;
-}
+  /* Our Features Section CSS Design */
+  .features_container {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .features_images_container {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
 
+  .feature_h1 {
+    font-size: 45px;
+  }
+  .feature_h2 {
+    font-size: 45px;
+  }
+
+  /* Features You Section CSS Design */
+  .feature_you_container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .you_header h2 {
+    font-size: 45px;
+  }
+
+  /* 10+Year Section Start */
+  .year_content {
+    margin-top: -300px;
+    margin-left: 350px;
+  }
+
+  /* Some Facts Section CSS Design */
+  .some_facts_container h2 {
+    font-size: 45px;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+  .some_facts_container p {
+    padding: 20px;
+  }
+  .facts_items_Container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 60px;
+    column-gap: 20px;
+    margin-top: 50px;
+  }
+
+  .fact_item img {
+    width: 70px;
+    margin-top: 35px;
+  }
+
+  .fact_item h2 {
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .fact_item p {
+    padding: 0;
+  }
+
+  /* Extra Work CSS Design */
+  .extra_work_container {
+    padding: 20px;
+  }
+  .extra_work {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .Extra_work_head {
+    font-size: 35px;
+  }
+  .get_quote {
+    font-size: 16px;
+  }
+
+  /* Our Sponspor Section CSS Design  */
+  .sponsors_container {
+    margin-top: 50px;
+    padding: 20px;
+  }
+  .sponsors_container h2 {
+    font-size: 45px;
+  }
+  .sponsers_logo {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }
-
-
 
 /* Extra Medium 993 to 1450 Device Responsive CSS Design */
 
-@media screen and (min-width: 993px) and (max-width:1450px) {
-
-/* Navbar Section CSS Design */
-main{
+@media screen and (min-width: 1220px) and (max-width: 1420px) {
+  /* Navbar Section CSS Design */
+  main {
     margin: 0 0;
-}
+  }
 
-.nav_container {
-  gap: 200px;
-}
-.nav_logo {
-  font-size: 45px;
-}
-.nav_container ul {
-  gap: 20px;
-}
-.nav_container ul li {
-  font-size: 20px;
-}
-
-/* Banner Section CSS Design */
-
-.banner_container {
-  padding: 20px;
-}
-.banner_details {
-  width: 70%;
-  margin: 70px 0;
-}
-.banner_details h1 {
-  font-size: 45px;
-  margin-bottom: 30px;
-}
-
-.banner_img img {
-  border-radius: 10px;
-}
-
-/* Our Features Section CSS Design */
-.features_container {
-  padding: 20px;
-}
-
-/* Features You Section CSS Design */
-.feature_you_container {
-  padding: 20px;
-}
+  .nav_container {
+    gap: 300px;
+  }
+  .nav_container ul {
+    gap: 50px;
+  }
 
 
-/* 10+Year Section Start */
-.year_content {
-  margin-top: -750px;
-  margin-left: 600px;
-}
+  /* Banner Section CSS Design */
 
-/* Some Facts Section CSS Design */
-.some_facts_container h2 {
-  padding: 20px;
-}
-.some_facts_container p {
+  .banner_container {
     padding: 20px;
-}
+  }
 
-.fact_item h2 {
-    padding: 0;
-}
-.fact_item p {
-    padding: 0;
-}
+  .banner_img img {
+    border-radius: 10px;
+    width: 80%;
+  }
 
-/* Extra Work CSS Design */
-.extra_work_container{
+  /* Our Features Section CSS Design */
+  .features_container {
     padding: 20px;
+  }
+
+  /* Features You Section CSS Design */
+  .feature_you_container {
+    padding: 20px;
+  }
+
+  /* 10+Year Section Start */
+  .year_content {
+    padding: 30px;
+    font-size: 20px;
+    margin-top: -550px;
+    margin-left: 700px;
+  }
+
+  /* Some Facts Section CSS Design */
+  .some_facts_container h2 {
+    padding-left: 20px;
+  }
+  .some_facts_container p {
+    padding-left:  20px;
+  }
+
+  .fact_item h2 {
+    padding: 0;
+  }
+  .fact_item p {
+    padding: 0;
+  }
+
+  /* Extra Work CSS Design */
+  .extra_work_container {
+    padding: 20px;
+  }
+
+  /* Our Sponspor Section CSS Design  */
+  .sponsors_container {
+    padding: 20px;
+  }
 }
 
 
-/* Our Sponspor Section CSS Design  */
-.sponsors_container {
-  padding: 20px;
-}
-}
