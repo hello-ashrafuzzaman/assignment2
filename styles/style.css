@@ -11,6 +11,7 @@
 main {
   max-width: 1220px;
   margin: 0 auto;
+  /* border: 2px solid red; */
 }
 
 /* Primary CSS */
@@ -34,10 +35,12 @@ main {
   /* align-items: center; */
 }
 .nav_container {
-  margin: 0 240px;
+  max-width: 1220px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 500px;
 }
 .nav_logo {
   margin-top: 50px;
@@ -64,7 +67,9 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 50px 240px;
+  margin: 0 auto;
+  /* margin: 50px 0px; */
+  max-width: 1220px;
 }
 .banner_details {
   width: 868px;
@@ -94,7 +99,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: 100%;
 }
 .banner_img img {
   width: 100%;
@@ -148,31 +153,30 @@ button {
   line-height: 26px;
 }
 
-
 /* Features You Section CSS Design */
-.feature_you_container{
-    display: flex;
-    gap: 120px;
-    margin: 130px 0;
+.feature_you_container {
+  display: flex;
+  gap: 120px;
+  margin: 130px 0;
 }
-.feature_you_Content{
-    text-align: left;
+.feature_you_Content {
+  text-align: left;
 }
-.you_header{
-    border-left: 5px solid #ff900e;
-    margin-bottom: 24px;
+.you_header {
+  border-left: 5px solid #ff900e;
+  margin-bottom: 24px;
 }
-.you_header h2{
-    color: #131313;
-    font-size: 45px;
-    font-weight: 700;
-    margin-left: 21px;
+.you_header h2 {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 21px;
 }
-.you_dis{
-color: #727272;
-font-size: 16px;
-font-weight: 400;
-margin-bottom: 30px;
+.you_dis {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 
 .feature_you_img {
@@ -185,44 +189,44 @@ margin-bottom: 30px;
   width: 100%;
 }
 
-.feature_content_card{
-    background: #FFFFFF;
-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-border-radius: 8px;
-margin-bottom: 20px;
-padding: 30px;
+.feature_content_card {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 30px;
 }
-.feature_content_card h1{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
+.feature_content_card h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
-.feature_content_card p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #727272;
+.feature_content_card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
 }
 
 /* 10+Year Section Start */
-.year_container{
-display: flex;
-justify-content: center;
-align-items: center;
+.year_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.year_content{
-    text-align: center;
-    padding: 36px 32px;
-    border-radius: 8px;
-    margin-top: -470px;
-    margin-left: 400px;
+.year_content {
+  text-align: center;
+  padding: 36px 32px;
+  border-radius: 8px;
+  margin-top: -470px;
+  margin-left: 400px;
 }
-.year_content h2{
-    color: white;
-    font-size: 55px;
-    font-weight: 700;
+.year_content h2 {
+  color: white;
+  font-size: 55px;
+  font-weight: 700;
 }
-.year_content p{
-    color: white;
-    font-size: 25px;
-    font-weight: 500;
+.year_content p {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
 }
