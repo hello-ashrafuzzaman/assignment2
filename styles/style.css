@@ -509,7 +509,7 @@ footer {
 
 /* Medium Device Responsive CSS Design */
 
-@media screen and (min-width: 577px) and (max-width: 1219px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
   /* Navbar Section CSS Design */
   main {
     margin: 0 0;
@@ -645,7 +645,7 @@ footer {
   }
 }
 
-/* Extra Medium 993 to 1450 Device Responsive CSS Design */
+/* Extra Medium 1220 to 1420 Device Responsive CSS Design */
 
 @media screen and (min-width: 1220px) and (max-width: 1420px) {
   /* Navbar Section CSS Design */
@@ -659,7 +659,6 @@ footer {
   .nav_container ul {
     gap: 50px;
   }
-
 
   /* Banner Section CSS Design */
 
@@ -695,7 +694,7 @@ footer {
     padding-left: 20px;
   }
   .some_facts_container p {
-    padding-left:  20px;
+    padding-left: 20px;
   }
 
   .fact_item h2 {
@@ -715,5 +714,3 @@ footer {
     padding: 20px;
   }
 }
-
-
